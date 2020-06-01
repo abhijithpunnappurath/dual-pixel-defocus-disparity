@@ -25,10 +25,10 @@ addpath(genpath('functions'));
 select_folder = 'Qualitative'; % input folder
 save_path = 'Results_qualitative'; % results folder
 
-imgname = '0035_B.tif'; % selected image
-                        % should end with '_B.tif'
+imgname = '0035_B.png'; % selected image
+                        % should end with '_B.png'
 % Note:
-% [imgname(1:end-6) '_L.TIF'] and [imgname(1:end-6) '_R.TIF'] are expected
+% [imgname(1:end-6) '_L.png'] and [imgname(1:end-6) '_R.png'] are expected
 % to be present inside select_folder
 
 fig_flag=1; %0 -> no figure pop ups indicating progress
@@ -64,8 +64,8 @@ extraval = ['_p_' num2str(patch_size) '_k_' num2str(ker_size) '_s_' num2str(stri
 fprintf('%s \n',fullfile(select_folder,[imgname(1:end-6) extraval]))
     
 % read left and right images
-imgl=imread(fullfile(select_folder,[imgname(1:end-6) '_L.TIF']));
-imgr=imread(fullfile(select_folder,[imgname(1:end-6) '_R.TIF']));
+imgl=imread(fullfile(select_folder,[imgname(1:end-6) '_L.png']));
+imgr=imread(fullfile(select_folder,[imgname(1:end-6) '_R.png']));
 % and the combined image
 imgc=imread(fullfile(select_folder,imgname));
 
