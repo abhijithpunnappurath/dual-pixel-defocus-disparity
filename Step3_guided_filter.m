@@ -13,7 +13,7 @@ addpath(genpath('functions'));
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 directory_name = 'Results_qualitative';
-img_name = '0035_p_111_k_41_s_33_r_0.5';
+img_name = '0001_p_111_k_41_s_33_r_0.5';
     
 r = 10;
 eps = 10^-6;
