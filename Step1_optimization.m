@@ -25,7 +25,7 @@ addpath(genpath('functions'));
 select_folder = 'Qualitative'; % input folder
 save_path = 'Results_qualitative'; % results folder
 
-imgname = '0035_B.png'; % selected image
+imgname = '0001_B.png'; % selected image
                         % should end with '_B.png'
 % Note:
 % [imgname(1:end-6) '_L.png'] and [imgname(1:end-6) '_R.png'] are expected
