@@ -163,7 +163,7 @@ if __name__ == '__main__':
     
     # Provide path to reference, target, confidence
     directory_name = 'Results_qualitative'
-    img_name = '0035_p_111_k_41_s_33_r_0.5'
+    img_name = '0001_p_111_k_41_s_33_r_0.5'
         
     #    Set parameters
     
