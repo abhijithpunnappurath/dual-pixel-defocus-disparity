@@ -1,4 +1,4 @@
-# Official respository for "[Modeling Defocus-Disparity in Dual-Pixel Sensors](https://abhijithpunnappurath.github.io/ICCP2020.pdf)", ICCP 2020.
+# Official respository for "[Modeling Defocus-Disparity in Dual-Pixel Sensors](https://abhijithpunnappurath.github.io/ICCP2020.pdf)", ICCP 2020
 
 ### BibTeX
 ```BibTeX
