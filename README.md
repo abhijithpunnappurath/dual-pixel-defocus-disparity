@@ -20,4 +20,4 @@
  - Note that the optimization-based approach is very slow since it requires minimizing our cost function of equation (7) at each window.
  
  ### Also check out
-  - If you are here out of interest in dual-pixel depth estimation in general, also check out my implementation of the [stereo-based algorithm](https://arxiv.org/abs/1806.04171) used on the Google Pixel 2.
+  - If you are here out of interest in dual-pixel depth estimation in general, also check out [my implementation](https://github.com/abhijithpunnappurath/dual-pixel-stereo-disparity) of the [stereo-based algorithm](https://arxiv.org/abs/1806.04171) used on the Google Pixel 2.
