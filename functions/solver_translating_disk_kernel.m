@@ -61,7 +61,7 @@ ker_est = ker_disk(x,kersize);
         refcirc((kersize-2*radius+1)/2:kersize-(kersize-2*radius+1)/2+1, ...
                 (kersize-2*radius+1)/2:kersize-(kersize-2*radius+1)/2+1)=circ;
 
-        dist_array=linspace(0,2*radius+1+1,2*radius+1+1);
+        dist_array=linspace(0,2*radius+1,2*radius+1+1);
         diskker=zeros(kersize,kersize);
         for i=dist_array
             diskker=diskker+refcirc.*imtranslate(refcirc,[sign(kersig)*i 0]);
