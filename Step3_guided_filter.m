@@ -31,4 +31,7 @@ q = guidedfilter_color(I, p, r, eps);
 ttt=toc;
 fprintf('Elapsed time %f sec \n',ttt);
 
+q=(q-min(q(:)))/( max(q(:))-min(q(:)) );
+q = ind2rgb(uint8(255*q), viridis(256));
+
 imwrite(q,fullfile(directory_name,img_name,'output.png'))
