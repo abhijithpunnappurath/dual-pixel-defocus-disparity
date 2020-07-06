@@ -19,5 +19,8 @@
     - The ```img_name``` variable to use for Steps 2 and 3 will be displayed when Step 1 finishes execution.
  - Note that the optimization-based approach is very slow since it requires minimizing our cost function of equation (7) at each window.
  
+ ### Visualization of our parameterized dual-pixel kernel of equation 6
+ ![DP gif](DP_animation.gif)
+ 
  ### Also check out
   - If you are here out of interest in dual-pixel depth estimation in general, also check out [my implementation](https://github.com/abhijithpunnappurath/dual-pixel-stereo-disparity) of the [stereo-based algorithm](https://arxiv.org/abs/1806.04171) used on the Google Pixel 2.
