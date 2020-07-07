@@ -19,6 +19,9 @@
     - The ```img_name``` variable to use for Steps 2 and 3 will be displayed when Step 1 finishes execution.
  - Note that the optimization-based approach is very slow since it requires minimizing our cost function of equation (7) at each window.
  
+ ### Video spotlight
+ ![spotlight](https://www.youtube.com/watch?v=Ow2ffrqjPiI&feature=youtu.be&t=117)
+ 
  ### Visualization of our parameterized dual-pixel kernel of equation 6
  ![DP gif](DP_animation.gif)
  
