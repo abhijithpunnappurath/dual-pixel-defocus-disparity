@@ -60,6 +60,6 @@ aiwe1val = aiwe1_calc(est_crop,gt_crop);
 
 [aiwe2val,a,b] = aiwe2_calc(est_crop,gt_crop);
 
-srcc_array_val = srcc_calc(est_crop,gt_crop);
+srccval = srcc_calc(est_crop,gt_crop);
 
-fprintf('%.3f %.3f %.3f \n',aiwe1val,aiwe2val,srcc_array_val);    
+fprintf('%.3f %.3f %.3f \n',aiwe1val,aiwe2val,srccval);    
