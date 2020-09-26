@@ -21,6 +21,7 @@
  
  ### Dataset
   - Download our dataset used for evaluation in Section 5.4 [here.](https://drive.google.com/file/d/1MUWXW5JTF6F-nkMk0qJLB2qxUi1Zl_WR/view?usp=sharing)
+    - All results in Table 1 were reported on 16-bit uncompressed TIFF images. The dataset shared on the link above contains 8-bit JPEG images (for file size considerations). Results may vary slightly.  
  
  ### Video spotlight
   - Watch the YouTube video [here](https://www.youtube.com/watch?v=Ow2ffrqjPiI&feature=youtu.be&t=117)
