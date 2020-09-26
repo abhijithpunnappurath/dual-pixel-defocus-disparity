@@ -19,6 +19,9 @@
     - The ```img_name``` variable to use for Steps 2 and 3 will be displayed when Step 1 finishes execution.
  - Note that the optimization-based approach is very slow since it requires minimizing our cost function of equation (7) at each window.
  
+ ### Dataset
+  - Download our dataset used for evaluation in Section 5.4 [here.](https://drive.google.com/file/d/1MUWXW5JTF6F-nkMk0qJLB2qxUi1Zl_WR/view?usp=sharing)
+ 
  ### Video spotlight
   - Watch the YouTube video [here](https://www.youtube.com/watch?v=Ow2ffrqjPiI&feature=youtu.be&t=117)
  
